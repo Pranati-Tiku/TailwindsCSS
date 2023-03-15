@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My_project</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body
+    class="font-serif text-neutral-900 dark:text-neutral-50 bg-white "
+  >
+    <nav class="mx-auto bg-orange-800 text-white p-3 sticky top-0 z-40">
+      <div class="container flex justify-between items-center mx-auto">
+        <img
+          src="https://raw.githubusercontent.com/coding-in-public/homesmart-landing-page/4a09a67a068b6d210b44fbe975ddbd38d6b16e28/assets/logo.svg"
+          alt="Images" width="100"
+          class="w-24 md:w-64 lg:w-68 ring-neutral-900 rounded-sm top-4 -ml-4 hover:opacity-80 transition-opacity"
+        />
+
+        <ul class="flex flex-row items-end w-full static p-4 space-x-2 justify-between">
+          <li class="hover:shadow-lg">HOME</li>
+          <li class="mr-auto hover:shadow-lg">CONTACTS</li>
+          <li class="hover:shadow-lg">LOGIN</li>
+          <li class="bg-teal-700 text-black rounded-md shadow-xl hover:text-neutral-800 py-2 px-6 transition-shadow">
+            SignUp
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <header class="relative pt-4 md:pt-16 lg:pt-24 flex flex-col">
+      <div class="absolute inset-0 bottom-8 -z-10 bg-gradient-to-b from-orange-300 to-amber-600"></div>
+      
+      <div class="container mx-auto grid grid-rows-1 place-items-end px-2">
+        <img
+          src="https://github.com/coding-in-public/homesmart-landing-page/blob/main/assets/couch.png?raw=true"
+          alt="Couch"
+          class="row-start-1 row-end-2 col-start-1 col-end-2 mx-auto"
+        />
+        <img
+          src="https://raw.githubusercontent.com/coding-in-public/homesmart-landing-page/4a09a67a068b6d210b44fbe975ddbd38d6b16e28/assets/app.svg"
+          alt="Image"
+          class="row-start-1 row-end-2 col-start-1 col-end-2 mx-auto w-40 md:w-44 lg:w-72"
+        />
+        
+      </div>
+      <main class="ml-10 p-10">
+        <div class="text-2xl">Demo-Project</div>
+        <p class="py-3 w-1/2 text-justify ">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos
+          accusamus laboriosam laudantium ex ducimus perspiciatis temporibus
+          maxime, ipsum quaerat blanditiis dolorem est
+          at nemo, eos, commodi unde nisi.
+        </p>
+        <div class="button">
+          <button
+            class="p-3 bg-orange-900 text-white rounded-lg hover:opacity-80 shadow-lg mr-2"
+          >
+            Buy
+          </button>
+          <button
+            class="p-3 bg-orange-900 text-white rounded-lg hover:opacity-80"
+          >
+            Click me
+          </button>
+        </div>
+      </main>
+    </header>
+   
+    <main class="grid mt-0">
+      <a
+        href="#"
+        class="no-underline bg-orange-900 p-4 m-3 mx-auto text-white rounded-lg shadow-2xl focus:outline-none focus-visible:ring-4 ring-neutral-900"
+        >Download The App</a
+      >
+    </main>
+    <section class="mx-auto container">
+      <div
+        class="w-8/12 dark:bg-orange-400 bg-white border-black border-4 rounded-xl mx-auto shadow-lg"
+      >
+        <div class="p-5">
+          <h1 class="text-2xl mb-4">Let's Connect</h1>
+        </div>
+        <form>
+          <div class="relative">
+            <label
+              for="name"
+              class="text-neutral-800 text-sm font-bold uppercase absolute -top-4 -translate-y-1/2 left-5"
+              >Your Name</label
+            >
+            <input
+              type="text"
+              class="form-input border-yellow-300 border-4 p-1 mb-10 mx-5 rounded-md w-3/4 focus:ring-2 focus:ring-offset-2 focus:border-amber-400 focus:outline-none"
+            />
+          </div>
+          <div class="relative">
+            <label
+              for="email"
+              class="text-neutral-800 text-sm font-bold uppercase absolute -top-4 -translate-y-1/2 left-5"
+              >Your Email</label
+            >
+
+            <input
+              type="email"
+              class="h-20 border-yellow-300 border-4 p-1 mx-5 mb-10 rounded-md w-3/4"
+            />
+            <div class="relative">
+              <textarea
+                name="content"
+                id="content"
+                cols="50"
+                rows="5"
+                class="form-input border-yellow-300 border-4 p-1 mb-10 mx-5 rounded-md w-3/4 focus:ring-2 focus:ring-offset-2 focus:border-amber-400 focus:outline-none"
+              ></textarea>
+              <label
+                for="content"
+                class="text-neutral-800 text-sm font-bold uppercase absolute -top-4 -translate-y-1/2 left-5"
+                >How can we help you?</label
+              >
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
